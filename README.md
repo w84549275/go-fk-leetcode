@@ -1,1 +1,1 @@
-# go-fk-leetcode
+# I feel so depressed in learning f**king CS
