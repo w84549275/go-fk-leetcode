@@ -16,7 +16,7 @@ public:
     }
 
     int reverse(int x) {
-        double ans = 0;
+        long ans = 0;
         int length = length_of_int(x);
         vector<int> figure(length);
         for (int i = 0; i < length; i++) {
