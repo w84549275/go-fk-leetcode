@@ -36,8 +36,8 @@ public:
         for (int i = start; i <= end; i++) {
             vector<TreeNode*> left_subtree = generateTreesHelper(start, i - 1);
             vector<TreeNode*> right_subtree = generateTreesHelper(i + 1, end);
-            for (auto &l : left_subtree) {
-                for (auto &r : right_subtree) {
+            for (auto l : left_subtree) {
+                for (auto r : right_subtree) {
                     TreeNode *node = new TreeNode(i, l, r);
                     ret.push_back(node);
                 }
